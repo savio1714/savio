@@ -3,7 +3,7 @@ package pojo;
 public class Ball {
 	private Integer Size;
 	private String color;
-	private Integer weight;
+	private Integer weight1;
 	
 	
 	public Integer getSize() {

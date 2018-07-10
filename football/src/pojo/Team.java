@@ -4,7 +4,7 @@ public class Team {
 	private String name;
 
 	public void win() {
-		System.out.println("win");
+		System.out.println("win!");
 	}
 	
 	public void lose() {
