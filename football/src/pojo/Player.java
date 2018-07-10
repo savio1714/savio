@@ -20,6 +20,16 @@ public class Player {
 		System.out.println("Running");
 	}
 	
+	public Player() {
+		age=0;
+		name="";
+		System.out.println("creating object");
+	}
+	
+	public Player(String name,Integer age) {
+		this.name=name;
+		this.age=age;
+	}
 	
 	
 	public Integer getAge() {
