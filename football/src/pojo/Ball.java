@@ -1,16 +1,28 @@
 package pojo;
 
 public class Ball {
-	private Integer Size;
+	private Integer size;
 	private String color;
 	private Integer weight;
 	
+	public Ball() {
+		size=0;
+		color="";
+		weight=0;
+		System.out.println("creating object.");
+	}
+	
+	public Ball(String color,Integer size,Integer weight) {
+		this.color=color;
+		this.size=size;
+		this.weight=weight;
+	}
 	
 	public Integer getSize() {
-		return Size;
+		return size;
 	}
 	public void setSize(Integer size) {
-		Size = size;
+		size = size;
 	}
 	public String getColor() {
 		return color;
