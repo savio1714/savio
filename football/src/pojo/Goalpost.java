@@ -1,21 +1,33 @@
 package pojo;
 
 public class Goalpost {
-	private Integer hight;
+	private Integer height;
 	private Integer lenght;
 	
 	public void goal() {
-		System.out.println("Goal!!!!!!");
+		System.out.println("Goal!!!!!");
 	}
 	
 	public void not_goal() {
 		System.out.println("Not Goal.......");
 	}
-	public Integer getHight() {
-		return hight;
+	
+	public Goalpost() {
+		height=0;
+		lenght=0;
+		System.out.println("creating object.");
 	}
-	public void setHight(Integer hight) {
-		this.hight = hight;
+	
+	public Goalpost(Integer lenght,Integer height) {
+		this.lenght=lenght;
+		this.height=height;
+	}
+	
+	public Integer getHeight() {
+		return height;
+	}
+	public void setHeight(Integer hight) {
+		this.height = height;
 	}
 	public Integer getLenght() {
 		return lenght;

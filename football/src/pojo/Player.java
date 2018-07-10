@@ -23,12 +23,16 @@ public class Player {
 	public Player() {
 		age=0;
 		name="";
+		position="";
+		height=0;
 		System.out.println("creating object.");
 	}
 	
-	public Player(String name,Integer age) {
+	public Player(String name,Integer age,String position,Integer height) {
 		this.name=name;
 		this.age=age;
+		this.position=position;
+		this.height=height;
 	}
 	
 	

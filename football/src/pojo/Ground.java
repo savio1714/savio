@@ -5,6 +5,19 @@ public class Ground {
 	private Integer lenght;
 	private Integer breadth;
 	
+	public Ground() {
+		name="";
+		lenght=0;
+		breadth=0;
+		System.out.println("creating object.");
+	}
+	
+	public Ground(String name,Integer lenght,Integer breadth) {
+		this.name=name;
+		this.lenght=lenght;
+		this.breadth=breadth;
+	}
+	
 	
 	public String getName() {
 		return name;

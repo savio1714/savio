@@ -9,7 +9,7 @@ public class Ball {
 		size=0;
 		color="";
 		weight=0;
-		System.out.println("creating object.");
+		System.out.println("creating object");
 	}
 	
 	public Ball(String color,Integer size,Integer weight) {
