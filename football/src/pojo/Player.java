@@ -25,7 +25,7 @@ public class Player {
 		name="";
 		position="";
 		height=0;
-		System.out.println("creating object.");
+		System.out.println("Player Info ......");
 	}
 	
 	public Player(String name,Integer age,String position,Integer height) {
