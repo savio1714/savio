@@ -7,7 +7,7 @@ public class Player {
 	private Integer height;
 	
 	public void kick() {
-		System.out.println("Kick");
+		System.out.println("Kick!!");
 	}
 	
 	public void score_goal() {

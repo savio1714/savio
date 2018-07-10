@@ -5,7 +5,7 @@ public class Goalpost {
 	private Integer lenght;
 	
 	public void goal() {
-		System.out.println("Goal!!!!!!!");
+		System.out.println("Goal!!!!!!");
 	}
 	
 	public void not_goal() {

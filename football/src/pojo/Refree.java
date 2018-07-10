@@ -6,7 +6,7 @@ public class Refree {
 	private Integer height;
 	
 	public void foul() {
-		System.out.println("Foul!!!!");
+		System.out.println("Foul!!!");
 	}
 	
 	public void outs(){
