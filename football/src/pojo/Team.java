@@ -2,7 +2,7 @@ package pojo;
 
 public class Team {
 	private String name;
-
+//
 	
 	public void win() {
 		System.out.println("win");
