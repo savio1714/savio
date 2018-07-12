@@ -5,7 +5,7 @@ public class Player {
 	private String name;
 	private String position;
 	private Integer height;
-	//
+	
 	public void kick() {
 		System.out.println("Kick!!");
 	}

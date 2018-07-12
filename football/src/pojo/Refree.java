@@ -4,7 +4,7 @@ public class Refree {
 	private String name;
 	private Integer age;
 	private Integer height;
-	//
+	
 	public void foul() {
 		System.out.println("Foul!!!");
 	}

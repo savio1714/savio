@@ -3,7 +3,7 @@ package pojo;
 public class Goalpost {
 	private Integer height;
 	private Integer lenght;
-	//
+	
 	public void goal() {
 		System.out.println("Goal!!!!!");
 	}
