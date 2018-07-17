@@ -1,7 +1,7 @@
 package sorting;
 //package sorting;
 
-p//ublic class App {
+public class App {
 
 	public static void main(String[] args) {
 		Integer []data= {3,5,1,8,6,2};
