@@ -1,8 +1,9 @@
 package EMPmanagement;
 
-public class TeachingStaff extends Staff{
+public abstract class TeachingStaff extends Staff{
 
 	private Integer noofTeachingHours;
+	public abstract void calculateSalary(); 
 	
 	public TeachingStaff() {
 		super();
@@ -13,11 +14,11 @@ public class TeachingStaff extends Staff{
 		this.noofTeachingHours=noofTeachingHours;
 	}
 
-	@Override
+	/*@Override
 	public void calculateSalary() {
 		System.out.println("Teaching Staff Salary");
 		
-	}
+	}*/
 
 	@Override
 	public void TypeOfJob() {

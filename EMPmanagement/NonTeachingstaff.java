@@ -8,11 +8,11 @@ public class NonTeachingstaff extends Staff {
 		
 	}
 
-	@Override
+	/*@Override
 	public void calculateSalary() {
 		System.out.println("Teaching Staff Salary");
 		
-	}
+	}*/
 
 	@Override
 	public void TypeOfJob() {

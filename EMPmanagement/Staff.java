@@ -5,7 +5,7 @@ public abstract class Staff {
 	private String name;
 	
 	public abstract void TypeOfJob();
-	public abstract void calculateSalary();
+	//public abstract void calculateSalary();
 	
 	public Staff() {
 		name="";
