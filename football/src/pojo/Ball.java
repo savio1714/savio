@@ -1,5 +1,5 @@
 package pojo;
-//
+
 public class Ball {
 	private Integer size;
 	private String color;

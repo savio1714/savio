@@ -1,5 +1,6 @@
 package application;
 
+import pojo.Goalkeeper;
 import pojo.Player;
 import pojo.Team;
 
@@ -13,7 +14,13 @@ public class FootballGame {
 		goalkeeper.setAge(50);
 		//System.out.println("Goalkeeper age:"+ " " +goalkeeper.getAge());
 		System.out.println("Team Name:"+ ""+ Teamname.getName());
-
+		//Goalkeeper goal=new Goalkeeper();
+		Player p=new Player();
+		Player g=new Goalkeeper();
+		System.out.println(" ");
+		System.out.println("Overriding Example......... ");
+		g.kick();  //kick function from Goalkeeper
+		p.kick();  //kick function from player
 	}
 
 }
