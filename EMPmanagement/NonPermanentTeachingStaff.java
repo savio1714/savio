@@ -1,11 +1,17 @@
 package EMPmanagement;
 
-public class NonPermanentTeachingStaff extends TeachingStaff{
+public class NonPermanentTeachingStaff  implements Pay{
 
-	@Override
+
 	public void calculateSalary() {
 		System.out.println("Salary is 10000");
 		
+	}
+
+	@Override
+	public void CalculatePay() {
+		// TODO Auto-generated method stub
+		System.out.println("Calculate Pay");
 	}
 
 }

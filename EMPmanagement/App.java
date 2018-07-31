@@ -18,6 +18,8 @@ public class App {
 		staff5.setName("Viru");
 		System.out.println(staff5.getName());
 		staff6.calculateSalary();
+		NonPermanentTeachingStaff Staff6=new NonPermanentTeachingStaff();
+		Staff6.CalculatePay();
 		
 	}
 }

@@ -1,6 +1,6 @@
 package EMPmanagement;
 
-public class PermanentTeachingStaff extends TeachingStaff {
+public class PermanentTeachingStaff extends TeachingStaff implements Pay{
 	 
 	public PermanentTeachingStaff() {
 		super();
@@ -13,6 +13,12 @@ public class PermanentTeachingStaff extends TeachingStaff {
 		System.out.println("Salary is 30000");
 		
 		
+	}
+
+
+	public void CalculatePay() {
+		// TODO Auto-generated method stub
+		System.out.println("Calculate Pay in permanent Teaching staff");
 	}
 	
 

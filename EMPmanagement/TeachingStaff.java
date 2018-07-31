@@ -1,6 +1,6 @@
 package EMPmanagement;
 
-public abstract class TeachingStaff extends Staff{
+public abstract class TeachingStaff extends Staff {
 
 	private Integer noofTeachingHours;
 	public abstract void calculateSalary(); 
