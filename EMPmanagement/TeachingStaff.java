@@ -1,5 +1,5 @@
 package EMPmanagement;
-
+//
 public abstract class TeachingStaff extends Staff {
 
 	private Integer noofTeachingHours;

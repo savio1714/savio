@@ -1,5 +1,5 @@
 package EMPmanagement;
-
+//
 public class PermanentTeachingStaff extends TeachingStaff implements Pay{
 	 
 	public PermanentTeachingStaff() {

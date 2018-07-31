@@ -12,7 +12,7 @@ public class App {
 		staff3.TypeOfJob();
 		staff4.setName("mark2");
 		System.out.println(staff4.getName());
-		*/
+		*///
 		Staff staff5=new PermanentTeachingStaff();
 		TeachingStaff staff6=new PermanentTeachingStaff();
 		staff5.setName("Viru");

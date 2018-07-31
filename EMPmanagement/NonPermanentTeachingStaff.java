@@ -1,5 +1,5 @@
 package EMPmanagement;
-
+//
 public class NonPermanentTeachingStaff  implements Pay{
 
 
