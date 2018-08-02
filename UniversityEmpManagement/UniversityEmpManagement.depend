@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1533203369 source:c:\users\savio\desktop\1714\universityempmanagement\src\pay.cpp
+	"Pay.h"
+
+1533203369 c:\users\savio\desktop\1714\universityempmanagement\include\pay.h
+
+1533205628 source:c:\users\savio\desktop\1714\universityempmanagement\main.cpp
+	<iostream>
+	"Staff.h"
+
+1533205755 c:\users\savio\desktop\1714\universityempmanagement\include\staff.h
+	"string"
+
