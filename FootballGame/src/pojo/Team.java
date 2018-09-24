@@ -1,9 +1,14 @@
 package pojo;
 
-public class Team  {
+public class Team implements Cloneable {
 	private String name;
 
 	
+ public Object clone() throws CloneNotSupportedException
+ {
+	 return super.clone();
+ }
+ 
 	public void win() {
 		System.out.println("win");
 	}
@@ -14,7 +19,7 @@ public class Team  {
 	
 	public Team() {
 		name="";
-		System.out.println("Object created");
+		//System.out.println("Object created");
 	}
 	
 	public Team(String name) {

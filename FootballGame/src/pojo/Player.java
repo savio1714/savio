@@ -2,6 +2,7 @@ package pojo;
 
 public class Player implements Loan,Contractbase{
 	private Integer age;
+	private Integer jerseynumber;
 	private String name;
 	private String position;
 	private Integer height;
@@ -36,6 +37,11 @@ public class Player implements Loan,Contractbase{
 		
 	}
 	
+	
+	public Player(String name,Integer jerseynumber) {
+		this.name=name;
+		this.jerseynumber=jerseynumber;
+	}
 	@Override
 	public void Contractbase(Integer contract) {
 		// TODO Auto-generated method stub
@@ -100,9 +106,16 @@ public class Player implements Loan,Contractbase{
 		return Loan;
 	}
 
+	public Integer getJerseynumber() {
+		return jerseynumber;
+	}
+
+	public void setJerseynumber(Integer jerseynumber) {
+		this.jerseynumber = jerseynumber;
+	}
+
 	public void setLoan(Integer loan) {
 		Loan = loan;
 	}
 
-	
 }
