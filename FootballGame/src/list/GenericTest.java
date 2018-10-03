@@ -19,26 +19,26 @@ public class GenericTest {
 			integerlist.add(2);
 			integerlist.add(12);
 			
-			printList(stringlist);
+			//printList(stringlist);
 			printList(integerlist);
 			
 			
 		}
-		/*static <E extends Number> void printList(List<E> mylist) {
+		static <E extends Number> void printList(List<E> mylist) {
 			
 			Iterator<E> myItr=mylist.iterator();
 			while(myItr.hasNext()) {
 				System.out.println("..."+myItr.next());
 			}
-		}*/
+		}
 		
-
+/*
 		 static <E> void printList(List<E> mylist) {
 			// TODO Auto-generated method stub
 			 for(E item:mylist) {
 				 System.out.println("...."+item);
 			 }
 			
-		}
+		}*/
 
 }
